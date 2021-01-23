@@ -6,7 +6,7 @@ tags: SoftWare
 
 ## Gsutil安装
 
-[文档](https://cloud.google.com/storage/docs/gsutil_install)
+[Gsutil文档](https://cloud.google.com/storage/docs/gsutil_install)
 
 
 
