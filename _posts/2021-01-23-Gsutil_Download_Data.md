@@ -1,7 +1,8 @@
- ---
- layout: post
- title: Gsutil下载Google Cloud data
- ---
+---
+layout: post
+title: Gsutil下载Google Cloud data
+tags: SoftWare
+---
 
 ## Gsutil安装
 
