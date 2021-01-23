@@ -1,7 +1,7 @@
 title: Limbo's Blog #博客标题
 description: Hello, World #博客描述
 keywords: R, Python #博客关键字
-author: "Link"
+author: "Limbo"
 
 #title hide and show
 hide: \!
@@ -34,8 +34,6 @@ plugins:
 
 # social account
 image:
-twitter:
-  username:
 #  site:
 facebook:
   #publisher: null
