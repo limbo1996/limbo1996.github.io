@@ -67,15 +67,11 @@ NM_002299.4 Homo sapiens lactase (LCT), mRNA
 GAAAATGGAG
 ```
 
-在这里我们得到了遗传DNA序列， 同样我们可以直接使用函数将DNA序列转录为RNA序列
+在这里我们得到了DNA序列， 同样我们可以直接使用函数将DNA序列转录为RNA序列
 
 ```{python}
->>> seq
-Seq('GAAAATGGAGCTGTCTTGGCATGTAGTCTTTATTGCCCTGCTAAGTTTTTCATG...ATT')
->>> rna = seq.transcribe
 >>> rna = seq.transcribe()
 >>> rna
-Seq('GAAAAUGGAGCUGUCUUGGCAUGUAGUCUUUAUUGCCCUGCUAAGUUUUUCAUG...AUU')
 ```
 
 同样可以进行翻译
