@@ -67,7 +67,6 @@ print(fmt)
 >>> rec = next(v)
 >>> rec
 <vcf.model._Record object at 0x7f197cafeac0>
->>> rec = next(v)
 >>> print(rec.CHROM, rec.POS, rec.ID, rec.REF, rec.ALT, rec.QUAL, rec.FILTER)
 >>> print(rec.INFO)
 >>> print(rec.FORMAT)
@@ -115,4 +114,4 @@ True ['0', '0'] False True
 
 接下来检索的是变异水平的信息(AC, DP等)， 以及sample水平的format(DP & GT)。
 
-最后我们计算了samples的数量， 并且提取出一个sample来检测, 它是否有这个位置的突变， reported alleles, 杂合性，
+最后我们计算了samples的数量， 并且提取出一个sample来检测, 它是否有这个位置的突变， 以及reported alleles, 还有杂合性。
