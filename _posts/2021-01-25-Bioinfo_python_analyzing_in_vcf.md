@@ -98,7 +98,7 @@ True ['0', '0'] False True
 
 首先从检索最基本的位置信息开始：
 
--    chromosome
+-   chromosome
 
 -   position
 
