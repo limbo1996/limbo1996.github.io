@@ -1,0 +1,21 @@
+---
+title: "Python 分析VCF数据(2)"
+author: "limbo1996"
+date: "2021/1/27"
+layout: post
+tags: Python
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment = ">>")
+```
+
+```{python}
+from collections import defaultdict
+import vcf
+```
+
+```{python}
+f = vcf.Reader(filename="/home/limbo1996/genotypes.vcf.gz")
+
+```
