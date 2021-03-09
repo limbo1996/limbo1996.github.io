@@ -10,22 +10,29 @@ tags: Python
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## 目的
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+构建一个模型来预测California 的房价
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+## 数据
 
-```{r cars}
-summary(cars)
+> <https://github.com/ageron/handson-ml>
+
+### Load data
+
+```{python}
+import pandas as pd
+import os
+
+def load_housing_data(housing_path):
+  csv_path = os.path.join(housing_path, "housing.csv")
+  
+  return pd.read_csv(csv_path)
 ```
 
-## Including Plots
+```{python}
 
-You can also embed plots, for example:
+housing = load_housing_data("/home/limbo1996/Github/handson-ml2/datasets/housing")
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+housing.head()
 ```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
