@@ -20,7 +20,6 @@ tags: Python
 from Bio import Entrez, SeqIO
 
 Entrez.email = "your@email"
-
 ```
 
 下载数据
